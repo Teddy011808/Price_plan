@@ -1,0 +1,152 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav span {
+  color: #ccc;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Centered Container */
+.container {
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Title and Description */
+h1 {
+  font-size: 39px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 25px;
+  color: #aaa;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+/* Billing Toggle */
+.billing-toggle {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Hide default radio buttons */
+.billing-toggle input {
+  display: none;
+}
+
+.billing-toggle label {
+  background: #222;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+/* Highlight when selected */
+.billing-toggle input:checked + label {
+  border-color: #f0f;
+}
+
+/* Plans */
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+/* Hide default radio buttons */
+.plans input {
+  display: none;
+}
+
+.plan {
+  background: #111;
+  padding: 30px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  transition: 0.3s;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+/* Highlight selected plan */
+.plans input:checked + label {
+  border-color: #f0f;
+  box-shadow: 0px 0px 15px #f0f;
+}
+
+/* Plan Styles */
+.plan h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.plan p {
+  font-size: 14px;
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+.plan h3 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.plan span {
+  font-size: 14px;
+  color: #ccc;
+}
+
+/* Subscribe Button */
+.plan button {
+  background: #fff;
+  color: #000;
+  border: none;
+  padding: 12px 18px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.plan button:hover {
+  background: #ddd;
+}

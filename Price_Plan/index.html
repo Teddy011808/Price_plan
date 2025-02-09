@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Plans</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">⚫</div>
+        <nav>
+            <span>Pricing</span>
+            <a href="#">Sign In</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>Pricing Plans</h1>
+        <p>Start building for free, then add a site plan to go live. Account plans unlock additional features.</p>
+
+        <div class="billing-toggle">
+            <input type="radio" id="monthly" name="billing" checked>
+            <label for="monthly">Monthly billing</label>
+            
+            <input type="radio" id="yearly" name="billing">
+            <label for="yearly">Yearly billing</label>
+        </div>
+    </div>
+
+    <div class="plans">
+        <input type="radio" id="hobby" name="plan" checked>
+        <label class="plan" for="hobby">
+            <h2>Hobby</h2>
+            <p>All the basics for starting a new business!</p>
+            <h3>$12<span>/month</span></h3>
+            <button>Subscribe</button>
+        </label>
+
+        <input type="radio" id="freelancer" name="plan">
+        <label class="plan" for="freelancer">
+            <h2>Freelancer</h2>
+            <p>All the basics for starting a new business</p>
+            <h3>$24<span>/month</span></h3>
+            <button>Subscribe</button>
+        </label>
+
+        <input type="radio" id="startup" name="plan">
+        <label class="plan" for="startup">
+            <h2>Startup</h2>
+            <p>All the basics for starting a new business!</p>
+            <h3>$32<span>/month</span></h3>
+            <button>Subscribe</button>
+        </label>
+    </div>
+</body>
+</html>
